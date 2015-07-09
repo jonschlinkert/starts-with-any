@@ -28,7 +28,12 @@
   },
   "verb": {
     "related": {
-      "list": ["starts-with", "starts-with-any", "ends-with", "ends-with-any"]
+      "list": [
+        "starts-with",
+        "starts-with-any",
+        "ends-with",
+        "ends-with-any"
+      ]
     }
   }
 }
