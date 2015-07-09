@@ -1,0 +1,34 @@
+{
+  "name": "starts-with-any",
+  "description": "Returns true if the given string or array begins with any of the given substrings.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/starts-with-any",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/starts-with-any",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/starts-with-any/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "starts-with": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "verb": {
+    "related": {
+      "list": ["starts-with", "starts-with-any", "ends-with", "ends-with-any"]
+    }
+  }
+}
